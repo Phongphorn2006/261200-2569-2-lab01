@@ -6,7 +6,9 @@ public class Main {
     public void main() throws Exception {
         int[] num = getNum();
         selectionSort(num);
-        IO.print("sorted num : " + Arrays.toString(num));
+        for(int i = 0;i < num.length ;i++ ) {
+            IO.println(num[i]);
+        }
     }
 
     void selectionSort(int[] arr ){
